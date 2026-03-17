@@ -1,0 +1,74 @@
+body{
+padding-top:70px;
+font-family:Arial, Helvetica, sans-serif;
+margin-top: 0px;
+padding: 0px;
+}
+
+.hero{
+position:relative;
+height:90vh;
+overflow:hidden;
+
+}
+
+.hero-img{
+height:90vh;
+object-fit:cover;
+}
+
+.hero-text{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+color:rgb(20, 20, 20);
+background:rgba(153, 145, 145, 0.5);
+padding:30px;
+border-radius:10px;
+}
+
+.card{
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+.skills{
+    background-color:rgb(84, 95, 117);
+    padding: 7px;;
+   border-radius: 15px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+ h1{
+    color: #1e4d71;
+}
+
+.profie-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
